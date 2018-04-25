@@ -421,7 +421,42 @@ footer p{
     z-index: 2;
 }
 
+/* Pear */
+
+#recipe_Pear{
+    width: 550px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    background: #fcfcfc;
+    padding: 60px;  
+    display: none;
+}
+#circle_pear{
+    position: absolute;
+    top:100px;
+    width: 150px;
+    height: 150px;
+    background-image: url(image/bumbieri.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #fcfcfc;
+    border-width: 20px;
+    animation-name: circle;
+    animation-duration: 40s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+#recipe_Pear h2{
+    float: right;
+}
+
 /* Strawberry */
+
 
 #recipe_Strawberry{
     width: 550px;

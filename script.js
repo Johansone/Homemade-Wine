@@ -21,8 +21,14 @@ function show_recipe_Apple() {
 function show_recipe_Strawberry() {
     document.getElementById("recipe_Strawberry").style.display = "block";
     document.getElementById("recipe_Apple").style.display = "none";
+    document.getElementById("recipe_Pear").style.display = "none";
 }
 
+function show_recipe_Pear() {
+    document.getElementById("recipe_Pear").style.display = "block";
+    document.getElementById("recipe_Apple").style.display = "none";
+  document.getElementById("recipe_Strawberry").style.display = "none";
+}
 // Hamburger menu
 
 function show_hamburgermenu() {
@@ -37,3 +43,4 @@ function show_useful_websites() {
 function hide_hamburgermenu() {
     document.getElementById("hamburgermenu").style.display = "none";
 }
+
