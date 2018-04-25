@@ -1,0 +1,388 @@
+/* Screen width 1024px*/
+
+@media only screen and (max-width: 1024px) {
+    body {width: 1024px;
+    }
+    header{
+        width: 1024px;
+        background-size: 115%;
+        height: 480px;
+    }
+
+    header p{
+        float: left;
+        top: 370px;
+        text-align: center;
+        float: right;
+        font-size: 16px;
+        width: 550px;
+    }
+    #square {
+        width: 500px;
+        height: 500px;
+    }
+
+    #Content{ 
+        width: 1024px;
+    }
+    .home{
+        width: 1.8%;
+    }
+    #dropdown{
+        left: 450px;
+    }
+    #video{
+        position: absolute;
+        left: 530px;
+        top: 630px;  
+    }
+    iframe{
+        height: 260px;
+        width: 450px;
+    }
+    #Paragraph1{
+        margin-bottom: 40px;  
+    }
+    #toolimg{
+        padding-left: 100px; 
+    }
+    figure{
+        width:190px;
+        padding-left: 60px; 
+    }
+    .roundimg{
+        width: 150px;
+    }
+    .roundimg:hover{
+        width: 200px;
+    }
+    #steps{
+        margin-top: -20px;
+    }
+    .step1{
+        margin-left: 40px;
+        width: 440px;
+        margin-top: 20px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+
+
+}
+
+/* Screen width 600px*/   
+
+@media only screen and (max-width: 600px) {
+    body {width: 600px;
+        background-size: 600px;}
+    header{
+        width: 600px;
+        background: none;
+        background-color: rgba(252, 252, 252, 0.67);
+    }
+
+    header p{
+        float: left;
+        top: 270px;
+        text-align: center;
+        margin-left: 40px;
+        width: 500px;
+        line-height: 1.5;
+    }
+    #square {display: none;}
+    #Content{ 
+        background-color: #fcfcfc;
+        width: 600px;
+
+    }
+    .home{width: 3%;}
+    #dropdown{
+        display: none;
+    }
+    /* Hamburger menu*/
+
+    #hamburgernav {
+        width: 35px;
+        height:35px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+    #hamburgernav div {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        border-radius: 2px;
+        clear: both;
+    }
+    #hamburgermenu{
+        display: none;
+        float: right;
+        position: relative;
+        right: 40px;
+        bottom: 50px;
+    }
+    #hamburgermenu li{
+        display: block;
+        background-color: #4e032a;
+        padding: 20px;
+        position: relative;
+        left: 15px;
+    }
+    .types_of_wine2{
+        color: white;
+    }
+    .useful_websites2{
+        color: white;
+    }
+    #hamburgermenu .types_of_wine2 ul{
+        display: none;
+        position: relative;
+        line-height: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #hamburgermenu .types_of_wine2 ul li{
+        width: 100px;
+        margin-left: -20px;
+    }
+    #hamburgermenu .useful_websites2 ul{
+        display: none;
+        position: relative;
+        line-height: 0px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #hamburgermenu .useful_websites2 ul li{
+        width: 130px;
+        margin-left: -20px;
+        line-height: 1.5;
+        padding-top: 0px;  
+    }
+
+    /* */
+
+    #video {
+        float: left;
+        left: 60px;
+        top: 940px;
+
+    }
+    iframe{
+        width: 450px;
+    }
+    #Paragraph1{
+        margin-left: 60px;
+    }
+    #Paragraph2{
+        margin-left: 60px;
+        margin-top: 700px;
+    }
+    #toolimg{
+        background-color: #4e032a;
+        padding-left: 60px; 
+    }
+    figcaption{
+        color: white;
+    }
+    figure{
+        width:120px;
+        padding-left: 30px 
+    }
+    .roundimg{
+        width: 100px;
+    }
+    .roundimg:hover{
+        width: 150px;
+    }
+    #steps{
+        margin-top: -20px;
+    }
+    .step1{
+        margin-left: 60px;
+        width: 440px;
+        margin-top: 20px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+
+
+}
+
+/* Screen width 400px*/
+
+
+@media only screen and (max-width: 400px) {
+    body {width: 400px;
+        background-size: 400px;}
+    header{
+        width: 400px;
+        height: 380px;
+        background: none;
+        background-color: rgba(252, 252, 252, 0.67);
+    }
+    h1{
+        width: 400px;
+        margin-left: 0px;
+        font-size: 55px;
+        margin-top: -20px;
+    }
+    .graphic_glass{
+        left: 150px;
+        top: 100px;
+        width: 30%;
+    }
+    header p{
+        float: left;
+        top: 180px;
+        text-align: center;
+        margin-left: 20px;
+        width: 360px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    #square {
+        display: none;
+    }
+    #Content{ 
+        background-color: #fcfcfc;
+        width: 400px;
+    }
+    .home{width: 5%;}
+    #dropdown{
+        display: none;
+    }
+
+
+    /* Hamburger menu*/
+
+
+    #hamburgernav {
+        width: 35px;
+        height:35px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+    #hamburgernav div {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        border-radius: 2px;
+        clear: both;
+    }
+    #hamburgermenu{
+        display: none;
+        float: right;
+        position: relative;
+        right: 40px;
+        bottom: 50px;
+    }
+    #hamburgermenu li{
+        display: block;
+        background-color: #4e032a;
+        padding: 20px;
+        position: relative;
+        left: 15px;
+    }
+    .types_of_wine2{
+        color: white;
+    }
+    .useful_websites2{
+        color: white;
+    }
+    #hamburgermenu .types_of_wine2 ul{
+        display: none;
+        position: relative;
+        line-height: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #hamburgermenu .types_of_wine2 ul li{
+        width: 100px;
+        margin-left: -20px;
+    }
+    #hamburgermenu .useful_websites2 ul{
+        display: none;
+        position: relative;
+        line-height: 0px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    #hamburgermenu .useful_websites2 ul li{
+        width: 130px;
+        margin-left: -20px;
+        line-height: 1.5;
+        padding-top: 0px;  
+    }
+
+    /* */
+
+    #video {
+        float: left;
+        left: -20px;
+        top: 850px;
+
+    }
+    iframe{
+        width: 350px;
+    }
+    #Paragraph1{
+
+        margin-left: 20px;
+        width: 360px;
+    }
+    #Paragraph2{
+        margin-left: 20px;
+        width: 360px;
+        margin-top: 700px;
+
+    }
+    #toolimg{
+        background-color: #4e032a;
+        padding-left: 35px;
+    }
+    figcaption{
+        color: white;
+    }
+    figure{
+        width:80px;
+        padding-left: 20px 
+    }
+    .roundimg{
+        width: 60px;
+    }
+    .roundimg:hover{
+        width: 90px;
+    }
+    #steps{
+        margin-top: -30px;
+    }
+    .step1{
+        margin-left: 20px;
+        width: 360px;
+        margin-top: 20px;
+    }
+    footer p{
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+}

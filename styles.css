@@ -1,0 +1,463 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(image/wood3.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+h3{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+h2{
+    color: #404040;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#Content{
+    width: 1200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0px auto;
+}
+header{
+    background-image: url(image/maja.jpg);
+    background-repeat: no-repeat;
+    height: 531px;
+    width: 1200px;
+    margin: 0px auto;
+}
+header p{
+    color: #404040;
+    position: relative;
+    top: 390px;
+    font-size: 20px;
+    width: 700px;
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Libre Baskerville', serif;
+}
+#square {
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+45,0+83 */
+        background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+}
+h1{
+    color: #4e032a;
+    position: absolute;
+    font-size: 70px;
+    width: 500px;
+    display: block;
+    text-align: center;
+    line-height: 3;
+    margin-left: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+.graphic_glass{
+    position: relative;
+    left: 220px;
+    top: 160px;
+}
+.Link_Style{
+    text-decoration: none;
+    color: white;
+}
+/*Navigation*/
+
+nav{
+    position: fixed;
+    background-color: #4e032a;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 50px;
+    height: 60px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    z-index: 1;
+}
+.home{
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#dropdown{
+    width: 600px;
+    position: relative;
+    left: 610px;
+    padding-top: 20px;
+}
+.recipes_button {
+    position: relative;
+    display: inline;
+    color: white;
+    margin-left: 50px;
+
+}
+.types_of_wine{
+    position: relative;
+    display: inline;
+    color: white;
+    margin-left: 50px;
+}
+
+.types_of_wine ul {
+    background-color: #4e032a;
+    display:none;
+    position:absolute;
+    width:150px;
+    top:19px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 200px;
+    line-height: 3;
+}
+.useful_websites{
+    position: relative;
+    display: inline;
+    color: white;
+    margin-left: 50px;
+}
+.useful_websites ul{
+    background-color: #4e032a;
+    display:none;
+    position:absolute;
+    width:150px;
+    top:19px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 380px;
+    line-height: 3;
+}
+li ul li {
+    display:block;
+    color: white;
+    width: 150px;
+    padding-left: 0px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+li ul li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    text-decoration: underline; 
+}
+
+li ul li:hover {
+    color:white;
+    text-decoration: underline;
+}
+li ul li:visited{
+    text-decoration: none;
+}
+li:hover ul{
+    display:block;
+}
+#hamburgermenu{
+    display:none;}
+
+/* Introduction (video) */
+
+#Paragraph1{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 440px;
+    float: left;
+    color: #404040;
+}
+#video{
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+/*Tools*/
+
+#tools{
+    clear: both;
+    margin-bottom: 50px;
+}
+#Paragraph2{
+    font-family: 'Lato', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 440px;
+    color: #404040;
+    font-size: 15px;
+}
+#toolimg{
+    margin: 0px auto;
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+figure{
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+}
+figcaption{
+    float: left;
+    display: none;
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+}
+figure:hover figcaption{
+    display: inline-block;
+}
+
+.roundimg{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.roundimg:hover{
+    width: 200px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#steps{
+    margin-left: 0px;
+    margin-right: 40px;
+}
+.step1{
+    width: 344px;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*Footer*/
+
+footer{
+    height: 200px;
+    background-color:#4e032a; 
+    margin-top: 50px;
+    clear: both;
+}
+footer p{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 60px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    text-align: right;
+    line-height: 2;
+}
+
+
+
+
+
+
+/*Recipes Page*/
+
+
+/* Sidebar Menu*/
+
+#Recipes{
+    float: left;
+    display: block;
+    width: 150px;
+    background-color: #4e032a;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+    padding: 40px;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 110px;
+}
+#Recipes ul {
+    list-style: disc;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 3;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+/*Explanation Button*/
+
+
+#question_mark{
+    background-color:#404040;
+    position: relative;
+    bottom: 10px;
+    border-radius: 100px;
+    font-size: 11px;
+    padding: 2px 0px 2px 3px;
+    z-index: 1;
+}
+.xbutton{
+    float: right;
+}
+
+/* Apple */
+
+#circle_apple{
+    position: absolute;
+    top:100px;
+    width: 150px;
+    height: 150px;
+    background-image: url(image/apples.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #fcfcfc;
+    border-width: 20px;
+    animation-name: circle;
+    animation-duration: 40s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+@keyframes circle{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+#recipe_Apple{
+    width: 550px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    background: #fcfcfc;
+    padding: 60px;  
+    display: block;
+    
+}
+#recipe_Apple h2{
+    float: right;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+    font-size: 13px;
+    display: block; 
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    line-height: 1.5;
+   
+}
+.list li{
+    padding-left: -1em; 
+    text-indent: -.9em;
+    text-decoration: none;
+}
+.list li::before {
+    content: "• ";
+    color: #4e032a;
+}
+.instructions{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+    font-size: 13px;
+    line-height: 1.5;
+}
+#bottling{
+    position: relative;
+    top: 940px;
+    left: 680px;
+    width: 400px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 12px;
+    background-color: #404040;
+    padding: 10px;
+    clear: both;
+    display: none;
+    z-index: 2;
+}
+#siphoning{
+    position: relative;
+    top: 940px;
+    left: 680px;
+    width: 400px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    background-color: #404040;
+    padding: 10px;
+    clear: both;
+    display: none;
+    z-index: 2;
+}
+
+/* Strawberry */
+
+#recipe_Strawberry{
+    width: 550px;
+    height: auto;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    background: #fcfcfc;
+    padding: 60px;  
+    display: none;
+}
+#circle_strawberry{
+    position: absolute;
+    top:100px;
+    width: 150px;
+    height: 150px;
+    background-image: url(image/zemenes.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #fcfcfc;
+    border-width: 20px;
+    animation-name: circle;
+    animation-duration: 40s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+#recipe_Strawberry h2{
+    float: right;
+}
+
+
+
+
+
+
+

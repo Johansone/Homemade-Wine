@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Untitled Document</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+
+        <script type="text/javascript" src="script.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <section id="Content">
+
+            <nav>
+                <a href="index.html"><img src="image/home_button.png" alt="home_button" class="home" width="1.5%"></a>
+
+                <div id="dropdown">
+                    <ul>
+                        <li class="recipes_button"><a href="recipes.html" class="Link_Style">Recipes</a>
+                            <!--<ul>
+<li>Apple Wine</li>
+<li>Pear Wine</li>
+<li>Strawberry Wine</li>
+<li>Plum Wine</li>
+<li>Jam Wine</li>
+<li>Cranberry Wine</li>
+</ul>-->
+                        </li >
+                        <li class="types_of_wine">Types of Wine
+                            <ul >
+                                <li> Dry
+                                </li>
+                                <li> Semi-Dry
+                                </li>
+                                <li> Sweet
+                                </li>
+                                <li> Semi-Sweet
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="useful_websites">Useful Websites
+                            <ul>
+                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                                </li>
+
+                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section id="Recipes">
+                <h3>Recipes</h3>
+                <ul>
+                    <li id="applewine" type="button" onclick="show_recipe_Apple()">Apple Wine</li>
+
+                    <li >Pear Wine</li>
+
+                    <li id="strawberrywine" type="button" onclick="show_recipe_Strawberry()">Strawberry Wine</li>
+
+                    <li>Plum Wine</li>
+                    <li>Jam Wine</li>
+                    <li>Cranberry Wine</li>
+                </ul>
+            </section>
+
+            <div id="bottling">
+                <img src="image/ex.png" width="10px;" class="xbutton"type="button" onclick="hidebottling()">
+                <p>Put your wine-filled carboy on the counter, and the bottles on the ground below. Use a siphoning tube to get the liquid flowing the same way as for the siphoning process. Fill up each bottle.</p>
+            </div>
+
+            <div id="siphoning">
+                <img src="image/ex.png" width="10px;" class="xbutton"type="button" onclick="hidesiphoning()">
+                <p>Put your wine-filled carboy on a raised, flat surface. Then, position your empty carboy on the ground, lower than the wine-filled carboy. Remove the bung and airlock from your wine, and start lowering your siphoning tube all the way down to the bottom of the wine-filled carboy, stopping around half an inch above the bottom. Then, take the other end of the tube and suck as hard as you can until the wine starts flowing freely through the tube. Quickly stick the tube into the empty carboy and watch how it slowly fills up the empty carboy with wine. </p>
+            </div>
+
+            <div id="recipe_Apple">
+
+                <div id="circle_apple"></div>
+
+                <h2>Apple Wine</h2>
+
+                <ul class="list">
+                    <li>Fresh apples 6 lb;
+                    </li>
+                    <li>Sugar 3 lb;</li>
+                    <li>Raisins 1 lb; 
+                    </li>
+                    <li>Juice of one lemon, or 0.5 oz citric acid;</li>
+                    <li>Wine yeast (The amount will vary depending on the brand you use – read the instructions on the package;</li>
+                    <li>Yeast nutrient – also read the instructions on the package on how much you need;</li>
+                    <li>Campden tablets.</li>
+                </ul>
+                <div class="instructions">
+                    <p>Preparing your apples - wash them (in water only – no chemicals).
+                        Coarsely chop your raisins, so that the skin is broken on almost all of them. Place them into a large stainless steel pot and pour approximately one gallon of boiling hot water over them. Bring the mixture to a boil, add 2 lb of sugar stirring constantly, then simmer for around 10 minutes. Take off the heat and let the mixture cool down.
+
+                    </p>
+
+                    <p>Now you can chop your apples. When ready, place them into the fermentation bin or bucket, add the raisin mixture and leave it to rest overnight (or for a minimum of 8 hours) in a warm room temperature.
+                    </p><br>
+
+                    <p>The next day, you should find that the must has started foaming and the apples float on the surface. Add the lemon juice or citric acid and stir it well. Then, add the wine yeast and the yeast nutrient, stir again and cover the fermentation bin. You will now have to leave the wine to continue its primary fermentation for at least another 5 days. Check on it twice a day and give it a stir with a sterilized spoon.</p><br>
+
+                    <p>The next step is to carefully pour the must into the straining bag placed over a large enough bowl. Then, squeeze the bag well so that you can release as much of the fermented apple juice as possible. Now it’s time to move your wine into a carboy (demijohn). In order to do this, place your funnel on the top of the carboy and very slowly and carefully pour the liquid through. Then tap the bung into place and fix your airlock on top. Store your wine-filled carboy in a cool, dark place, away from direct sunlight. In total, the wine will probably need to ferment for at least 3 weeks.</p><br>
+
+                    <p>After 3 weeks, it should be ready for siphoning<span id="question_mark" type="button" onclick="showsiphoning()">&#10068;</span>. After siphoning top up the newly filled carboy with filtered or bottled water and add 1 lb of sugar. Secure the bung and airlock on top. Place it again in a dark and cool place and leave it for another 3 weeks.</p><br>
+
+                    <p>After 3 weeks, it is ready for bottling process<span id="question_mark" type="button" onclick="showbottling()">&#10068;</span>. Add one Campden tablet per gallon of wine just before bottling. The Campden tablets must first be crushed and dissolved in a small amount of the wine or water. When you’re done, all that’s left is to cork up and attach labels to your wine bottles.</p>
+
+                </div>
+            </div>
+
+
+            <div id="recipe_Strawberry">
+                <div id="circle_strawberry"></div>
+                <h2>Strawberry Wine</h2>
+                <ul class="list">
+                    <li>Strawberries – 6.5 lb;
+                    </li>
+                    <li>Sugar 4.4 lb; </li>
+                    <li>Watter 0.8 gal;
+                    </li>
+                    <li>Raisins 3.5 oz;</li>
+                </ul>
+                <div class="instructions">
+                    <p>Mash cleaned ripe strawberries.
+                        Dissolve sugar in warm water.
+                    </p>
+
+                    <p>Put the mashed strawberries into a container; add sugary syrup and handful of raisins. Thoroughly stir it. Raisins contain wild wine yeast, which facilitate fermentation. You can manage without them, but you’ll have no guarantee that the strawberry will ferment. You may choose to add wine yeast instead or in addition. Fill a large stainless steel pot up to ¾ of its volume; otherwise the must might overflow during the fermentation.
+                    </p><br>
+
+                    <p>Cover the pot with gauze and leave it for about a week in a dark place with a temperature of 61-77F° / 16-25°C. In order to prevent mold from appearing and the juice from souring, stir the must with a sterilized spoon every day.</p><br>
+
+                    <p>After about a week, when you see the signs of active fermentation (foaming, hissing sound, and fermented odor), it should be ready for siphoning. Carefully pour the wine from the sediment through a siphoning tube. Squeeze the pulp through straining bag or cheesecloth.</p><br>
+
+                    <p>Pour all of the wine into a clean carboy (demijohn). Install an air lock. Move the carboy into a dark warm place (65-74F° / 18-23°C).</p><br>
+
+                    <p>After 35-45 days, the fermentation will be finished (the air lock will stop bubbling). Now you can pour the wine from the sediment through a siphoning tube in bottle for storing. </p><br>
+
+                    <p>Leave the bottles in a cellar for about two months, that’s when the taste will have matured and will be at its best. Stronger wine (with more alcohol content) can be kept for about a year or year and a half, lighter wine – for 6-8 months.
+                    </p><br>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <footer>
+                <p>
+                    May cause intense feeling of happiness and lifelong home brewing hobby<br>
+                    Drink with moderation and responsibility<br>
+                    The excessive consumption of alcohol can cause addiction
+                </p>
+
+            </footer>
+
+        </section>
+        <!--
+
+<script>
+
+function showbottling() {
+document.getElementById("bottling").style.display = "block";
+}
+function hidebottling() {
+document.getElementById("bottling").style.display = "none";
+}
+
+function showsiphoning() {
+document.getElementById("siphoning").style.display = "block";
+}
+function hidesiphoning() {
+document.getElementById("siphoning").style.display = "none";
+}
+
+function show_recipe_Apple() {
+document.getElementById("recipe_Apple").style.display = "block";
+document.getElementById("recipe_Strawberry").style.display = "none";
+}
+
+function show_recipe_Strawberry() {
+document.getElementById("recipe_Strawberry").style.display = "block";
+document.getElementById("recipe_Apple").style.display = "none";
+}
+
+
+</script>
+
+-->
+
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Untitled Document</title>
+
+        <link href="styles.css" type="text/css" rel="stylesheet">
+
+        <link href="media.css" type="text/css" rel="stylesheet">
+
+        <script type="text/javascript" src="script.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            <div id="square"></div>
+            <h1>Homemade Wine</h1>
+            <img src="image/graphic_glass.png" class="graphic_glass" alt="GraphicGlass" width="150px;"/>
+
+            <p>Learn how to turn fruits and berries into a good wine.<br>
+                From all natural fruits, without preservatives and without artificial flavors or colors.
+
+            </p>
+
+        </header>
+
+        <section id="Content">
+
+            <nav>
+                <a href="index.html"><img src="image/home_button.png" alt="home_button" class="home" width="1.5%"></a>
+
+                <div id="hamburgernav" type="button" onclick="show_hamburgermenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div id="dropdown">
+                    <ul>
+                        <li class="recipes_button"><a href="recipes.html" class="Link_Style">Recipes</a>
+                            <!--<ul>
+<li>Apple Wine</li>
+<li>Pear Wine</li>
+<li>Strawberry Wine</li>
+<li>Plum Wine</li>
+<li>Jam Wine</li>
+<li>Cranberry Wine</li>
+</ul>-->
+                        </li >
+                        <li class="types_of_wine" >Types of Wine
+                            <ul >
+                                <li> Dry
+                                </li>
+                                <li> Semi-Dry
+                                </li>
+                                <li> Sweet
+                                </li>
+                                <li> Semi-Sweet
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="useful_websites">Useful Websites
+                            <ul>
+                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                                </li>
+
+                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                  <div id="hamburgermenu">
+                    <ul>
+                        <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
+                            
+                        <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
+                            <ul id="Types_js">
+                                <li> Dry
+                                </li>
+                                <li> Semi-Dry
+                                </li>
+                                <li> Sweet
+                                </li>
+                                <li> Semi-Sweet
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
+                            <ul id="Websites_js">
+                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                                </li>
+
+                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            
+
+            <div id="Paragraph1">
+                <h2>Why should you try?</h2>
+                <p>Nowadays, when store shelves are full of various alcoholic beverages and the choice is, to put it mildly, gigantic, what are the reasons making it worthwhile to try making your own wine? The first and most important reason is that by preparing your own wine you can control the process from A to Z. This means that all choices are in your hands - you can make your wine stronger, less strong, sweet, semi-sweet, or dry. Another, also important, reason to make your own wine is your control of all ingredients your wine is made of. As the result, you can be sure that your wine is made of natural ingredients; it doesn’t contain any chemicals, as is often the case with those wines that you can buy in stores. Finally, making homemade wine likely becomes ones hobby, which is another very good reason to give it a try. Furthermore, congratulating a friend or an acquaintance on a special occasion with a bottle of your own homemade wine is very special, as a bottle of delicious wine with a beautifully designed label undoubtedly also is a great gift.</p>
+            </div>
+
+
+            <aside id="video">
+                <iframe src="https://player.vimeo.com/video/215656236" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </aside>
+
+            <section id="tools">
+                <div id="Paragraph2">
+                    <h2>Tools and Accessories
+                    </h2>
+                    <p>In order to start the process of making a homemade wine, you need to buy the necessary tools and accessories and prepare the raw materials, e.g., apple juice. We suggest that you visit a winemaking supply store where a knowledgeable salesperson can help you choose the best tools and accessories for your particular needs. As very basics, you will need:</p>
+                </div>
+
+                <div id="toolimg">
+
+                    <figure>
+                        <figcaption>Carboy</figcaption>
+                        <img src="image/tools_img/carboy.png" class="roundimg" alt="carboy" width="150px">
+
+                    </figure>
+
+                    <figure>
+                        <figcaption>Bucket</figcaption>
+                        <img src="image/tools_img/bucket.png" class="roundimg" alt="bucket" width="150px">
+                    </figure>
+
+                    <figure>
+                        <figcaption>Measuring Cup</figcaption>
+                        <img src="image/tools_img/measuring-cup.png" class="roundimg" alt="cup" width="150px">
+                    </figure>
+
+                    <figure>
+                        <figcaption>Wooden Masher</figcaption>
+                        <img src="image/tools_img/masher.png" class="roundimg" alt="masher" width="150px">
+                    </figure>
+
+                    <figure>
+                        <figcaption>Pot</figcaption>
+                        <img src="image/tools_img/pot.png" class="roundimg" alt="pot" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Airlock With Rubber Bung</figcaption>
+                        <img src="image/tools_img/airlock.png" class="roundimg" alt="airlock" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Funnel</figcaption>
+                        <img src="image/tools_img/funnel.png" class="roundimg" alt="funnel" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Strainer</figcaption>
+                        <img src="image/tools_img/strainer.png" class="roundimg" alt="strainer" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Long Handled Spoon</figcaption>
+                        <img src="image/tools_img/spoon.png" class="roundimg" alt="spoon" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Siphoning Tube</figcaption>
+                        <img src="image/tools_img/tube.png" class="roundimg" alt="tube" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Cotton</figcaption>
+                        <img src="image/tools_img/cutton.png" class="roundimg" alt="cotton" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Cork Press Plug Tool</figcaption>
+                        <img src="image/tools_img/cork-press.png"  class="roundimg" alt="press" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Corks and PVC Foil Capsules</figcaption>
+                        <img src="image/tools_img/corks.png" class="roundimg" alt="corks" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Bottle</figcaption>
+                        <img src="image/tools_img/bottle.png" class="roundimg" alt="bottle" width="150px">
+                    </figure>
+                    <figure>
+                        <figcaption>Glass</figcaption>
+                        <img src="image/tools_img/glass.png" class="roundimg" alt="glass" width="150px">
+                    </figure>
+
+                </div>
+
+
+            </section>
+            <section id="steps">
+                <div class="step1">
+                    <h2>Not Just Grapes</h2>
+                    <p>Although wine most often is made from grapes, these are not the only berries/fruits, which can produce a good wine. Also, wine can be made all year round also in “distinct four-season” locations. In spring and summer, you can make wine from fresh local fruits and berries (one of the most delicious wines are from rhubarb and strawberries). In autumn, local apples, pears, cranberries, grapes, plums, wild rose hips, etc., can be used. In winter, frozen fruits and berries, pasteurized juices, compotes, jams, and even dried fruits can be used. The choice is quite broad, but for the first time it is safer to choose the simplest ingredient, such as apple juice. It is best to squeeze your own apple juice from fresh juicy apples, the variety is not important.</p>
+                </div>
+                <div class="step1">
+                    <h2>Planning the Fermentation Process</h2>
+                    <p>The fermentation process itself is very simple – nothing in particular you need to do. Just pour freshly squeezed juice into a special winemaking bowl or bucket, add yeast, sugar, and yeast nutrients and let it all sit for quite a long time. It's the process, which takes the longest. However, it is very important to determine the amount of sugar you need which will affect the strength (more or less alcohol content) of the wine. The more sugar, the stronger the wine will be. Please keep in mind that juice already has a certain amount of sugar. Thus, it would be useful to have a vinometer that will accurately measure the amount of sugar in the juice you choose to use and consequently the strength of wine.</p>
+                </div>
+                <div class="step1">
+                    <h2>Storage</h2>
+                    <p>Wine is one of the few commodities that can improve in flavor and value with age, but on the other hand, wine can have a “very cranky character,” requiring gentle and thoughtful handling. The best place to store any wine is a cellar, as cellars usually maintain a constant temperature. Wine “does not like” rapid and drastic changes in temperature. The optimal temperature should range from 8 to 12 degrees (C) or 46 to 53 degrees (F), otherwise the wine will lose flavors and aroma. In addition, the desired amount of air humidity should be from 55 to 75%. An equally important factor affecting the quality of wine is light. The brighter the light, the more it affects the wine - it changes color and aroma, so the best option is complete darkness. Please note that bad factor influencing your wine can be smells from other products (especially a smell of potatoes stored nearby.) or chemicals. If the wine has already been bottled, it is best to place them leaning towards a lying down position, but not completely horizontally. The bottom of the bottle should be about half a centimeter (0.197 in) lower than the neck, so that the sediment can settle down at the bottom of the bottle.
+                    </p>
+                </div>
+
+            </section>
+
+
+
+
+
+
+            <footer>
+                <p>
+                    May cause intense feeling of happiness and lifelong home brewing hobby<br>
+                    Drink with moderation and responsibility<br>
+                    The excessive consumption of alcohol can cause addiction
+                </p>
+            </footer>
+
+
+
+
+
+
+
+        </section>
+    </body>
+</html>
