@@ -33,7 +33,7 @@ h2{
     height: auto;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0px auto;
-    transition: all .8s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 header{
     background-image: url(image/maja.jpg);
@@ -41,6 +41,7 @@ header{
     height: 531px;
     width: 1200px;
     margin: 0px auto;
+    transition: all .6s ease-in-out;
 }
 header p{
     color: #404040;
@@ -231,11 +232,14 @@ figcaption{
     display: none;
     font-family: 'Lato', sans-serif;
     color: #404040;
+    transition-property: all;
+    transition-duration: 1s;
 }
 figure:hover figcaption{
     display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
 }
-
 .roundimg{
     transition-property: all;
     transition-duration: 1s;
