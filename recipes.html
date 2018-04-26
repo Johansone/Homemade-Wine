@@ -72,16 +72,6 @@
                 </ul>
             </section>
 
-            <div id="bottling">
-                <img src="image/ex.png" width="10px;" class="xbutton"type="button" onclick="hidebottling()">
-                <p>Put your wine-filled carboy on the counter, and the bottles on the ground below. Use a siphoning tube to get the liquid flowing the same way as for the siphoning process. Fill up each bottle.</p>
-            </div>
-
-            <div id="siphoning">
-                <img src="image/ex.png" width="10px;" class="xbutton"type="button" onclick="hidesiphoning()">
-                <p>Put your wine-filled carboy on a raised, flat surface. Then, position your empty carboy on the ground, lower than the wine-filled carboy. Remove the bung and airlock from your wine, and start lowering your siphoning tube all the way down to the bottom of the wine-filled carboy, stopping around half an inch above the bottom. Then, take the other end of the tube and suck as hard as you can until the wine starts flowing freely through the tube. Quickly stick the tube into the empty carboy and watch how it slowly fills up the empty carboy with wine. </p>
-            </div>
-
             <div id="recipe_Apple">
 
                 <div id="circle_apple"></div>
@@ -112,16 +102,34 @@
 
                     <p>The next step is to carefully pour the must into the straining bag placed over a large enough bowl. Then, squeeze the bag well so that you can release as much of the fermented apple juice as possible. Now it’s time to move your wine into a carboy (demijohn). In order to do this, place your funnel on the top of the carboy and very slowly and carefully pour the liquid through. Then tap the bung into place and fix your airlock on top. Store your wine-filled carboy in a cool, dark place, away from direct sunlight. In total, the wine will probably need to ferment for at least 3 weeks.</p><br>
 
-                    <p>After 3 weeks, it should be ready for siphoning<span id="question_mark" type="button" onclick="showsiphoning()">&#10068;</span>. After siphoning top up the newly filled carboy with filtered or bottled water and add 1 lb of sugar. Secure the bung and airlock on top. Place it again in a dark and cool place and leave it for another 3 weeks.</p><br>
+                    <div class="infoParagraph">
+                        <p>After 3 weeks, it should be ready for siphoning
+                            <span class="question_mark"  type="button" onclick="showsiphoning()">&#10068;
+                            </span>. After siphoning top up the newly filled carboy with filtered or bottled water and add 1 lb of sugar. Secure the bung and airlock on top. Place it again in a dark and cool place and leave it for another 3 weeks.
 
-                    <p>After 3 weeks, it is ready for bottling process<span id="question_mark" type="button" onclick="showbottling()">&#10068;</span>. Add one Campden tablet per gallon of wine just before bottling. The Campden tablets must first be crushed and dissolved in a small amount of the wine or water. When you’re done, all that’s left is to cork up and attach labels to your wine bottles.</p>
+                        </p>
 
+                        <div id="bottling">
+                            <img src="image/ex.png"  width="10px;"  class="xbutton" type="button" onclick="hidebottling()">
+                            <p>Put your wine-filled carboy on the counter, and the bottles on the ground below. Use a siphoning tube to get the liquid flowing the same way as for the siphoning process. Fill up each bottle.</p>
+                        </div>
+                    </div>
+
+                    <br>
+ <div class="infoParagraph">
+                    <p>After 3 weeks, it is ready for bottling process<span class="question_mark" type="button" onclick="showbottling()">&#10068;</span>. Add one Campden tablet per gallon of wine just before bottling. The Campden tablets must first be crushed and dissolved in a small amount of the wine or water. When you’re done, all that’s left is to cork up and attach labels to your wine bottles.</p>
+
+                    <div id="siphoning">
+                        <img src="image/ex.png "  width="10px;" class="xbutton"type="button" onclick="hidesiphoning()">
+                        <p>Put your wine-filled carboy on a raised, flat surface. Then, position your empty carboy on the ground, lower than the wine-filled carboy. Remove the bung and airlock from your wine, and start lowering your siphoning tube all the way down to the bottom of the wine-filled carboy, stopping around half an inch above the bottom. Then, take the other end of the tube and suck as hard as you can until the wine starts flowing freely through the tube. Quickly stick the tube into the empty carboy and watch how it slowly fills up the empty carboy with wine. </p>
+                    </div>
+                </div>
                 </div>
             </div>
-            
-            
-            
-              <div id="recipe_Pear">
+
+
+
+            <div id="recipe_Pear">
                 <div id="circle_pear"></div>
                 <h2>Pear Wine</h2>
                 <ul class="list">
@@ -147,10 +155,10 @@
                     <p>Stir this mixture daily for about one week. After a week, pour the mixture into a secondary fermentation container, and gently squeeze out the pulp from the fruit. This container should be an airtight one.</p><br>
 
                     <p>Leave the mixture in this airtight container for about three months. After that, pour the wine mixture into sterilized wine bottles, and store for approximately 6 - 12 months. Remember, the longer you age the wine, the better it will taste.</p>
-                    
+
                 </div>
             </div>
-            
+
 
             <div id="recipe_Strawberry">
                 <div id="circle_strawberry"></div>

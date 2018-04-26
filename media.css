@@ -1,8 +1,7 @@
 /* Screen width 1024px*/
 
-@media only screen and (max-width: 1024px) {
-    body {width: 1024px;
-    }
+@media only screen and (max-width: 1224px) {
+    
     header{
         width: 1024px;
         background-size: 115%;
@@ -11,11 +10,11 @@
 
     header p{
         float: left;
-        top: 370px;
+        top: 400px;
         text-align: center;
         float: right;
         font-size: 16px;
-        width: 550px;
+        
     }
     #square {
         width: 500px;
@@ -29,12 +28,12 @@
         width: 1.8%;
     }
     #dropdown{
-        left: 450px;
+        left: 440px;
     }
     #video{
-        position: absolute;
-        left: 530px;
-        top: 630px;  
+        position: relative;
+        left: 0px;
+        top: 30px;  
     }
     iframe{
         height: 260px;
@@ -74,9 +73,8 @@
 
 /* Screen width 600px*/   
 
-@media only screen and (max-width: 600px) {
-    body {width: 600px;
-        background-size: 600px;}
+@media only screen and (max-width: 1024px) {
+    
     header{
         width: 600px;
         background: none;
@@ -173,7 +171,7 @@
     #video {
         float: left;
         left: 60px;
-        top: 940px;
+        top: 0px;
 
     }
     iframe{
@@ -221,9 +219,8 @@
 /* Screen width 400px*/
 
 
-@media only screen and (max-width: 400px) {
-    body {width: 400px;
-        background-size: 400px;}
+@media only screen and (max-width: 600px) {
+    
     header{
         width: 400px;
         height: 380px;
@@ -336,7 +333,7 @@
     #video {
         float: left;
         left: 20px;
-        top: 880px;
+        top: 0px;
 
     }
     iframe{
@@ -350,7 +347,7 @@
     #Paragraph2{
         margin-left: 20px;
         width: 360px;
-        margin-top: 700px;
+        margin-top: 0px;
 
     }
     #toolimg{
