@@ -284,6 +284,7 @@
         position: sticky;
         top:110px;
         margin-left: 30px;
+         margin-bottom: 300px;
     }
     .fruit{
         width: 50px;
@@ -510,6 +511,7 @@
         position: sticky;
         top:110px;
         margin-left: 20px;
+        margin-bottom: 300px;
     }
     .fruit{
         width: 40px;

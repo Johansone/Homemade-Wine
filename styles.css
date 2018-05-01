@@ -326,7 +326,7 @@ footer p{
 .question_mark{
     position: relative;
     width: 4%;
-    z-index: 1;
+    
 }
 .xbutton{
     float: right;
