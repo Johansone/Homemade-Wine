@@ -316,17 +316,16 @@ footer p{
     margin-top: 40px;
     margin-left: 15px;
 }
+#Recipes_Icons{
+    display: none;
+}
 
 /*Explanation Button*/
 
 
 .question_mark{
-    background-color:#404040;
     position: relative;
-    bottom: 10px;
-    border-radius: 100px;
-    font-size: 11px;
-    padding: 2px 0px 2px 2px;
+    width: 4%;
     z-index: 1;
 }
 .xbutton{
@@ -407,6 +406,7 @@ footer p{
     left: 200px;
     width: 400px;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     color: white;
     font-size: 12px;
     background-color: #404040;
@@ -451,7 +451,7 @@ footer p{
     width: 150px;
     height: 150px;
     background-image: url(image/bumbieri.jpg);
-    background-size: cover;
+    background-size: 170%;
     border-radius: 100px;
     border-style: solid;
     border-color: #fcfcfc;

@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Untitled Document</title>
+
         <link href="styles.css" type="text/css" rel="stylesheet">
+
+        <link href="media.css" type="text/css" rel="stylesheet">
 
         <script type="text/javascript" src="script.js"></script>
 
@@ -18,6 +21,12 @@
 
             <nav>
                 <a href="index.html"><img src="image/home_button.png" alt="home_button" class="home" width="1.5%"></a>
+                
+                <div id="hamburgernav" type="button" onclick="show_hamburgermenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
 
                 <div id="dropdown">
                     <ul>
@@ -56,6 +65,35 @@
                     </ul>
                 </div>
             </nav>
+             <div id="hamburgermenu" >
+                    <ul onmouseleave="hide_hamburgermenu()">
+                        <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
+                            
+                        <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
+                            <ul id="Types_js">
+                                <li> Dry
+                                </li>
+                                <li> Semi-Dry
+                                </li>
+                                <li> Sweet
+                                </li>
+                                <li> Semi-Sweet
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
+                            <ul id="Websites_js">
+                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                                </li>
+
+                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
 
             <section id="Recipes">
                 <h3>Recipes</h3>
@@ -71,6 +109,22 @@
                     <li>Cranberry Wine</li>
                 </ul>
             </section>
+            
+            <div id="Recipes_Icons">
+                    <ul id="Icons">
+                        <li type="button" onclick="show_recipe_Apple()"><img src="image/icon_apple.png" alt="apple" class="fruit"></li>
+                        
+                        <li type="button" onclick="show_recipe_Pear()"><img src="image/icon_pear.png" alt="pear" class="fruit"></li>
+                        
+                        <li type="button" onclick="show_recipe_Strawberry()"><img src="image/icon_strawberry.png" alt="strawberry" class="fruit"></li>
+                        
+                        <li><img src="image/icon_plum.png" alt="plum" class="fruit"></li>
+                        
+                        <li><img src="image/icon_jam.png" alt="jam" class="fruit"></li>
+                        
+                        <li><img src="image/icon_cranberry.png" alt="cranberry" class="fruit"></li>
+                </ul>
+                </div>
 
             <div id="recipe_Apple">
 
@@ -103,9 +157,9 @@
                     <p>The next step is to carefully pour the must into the straining bag placed over a large enough bowl. Then, squeeze the bag well so that you can release as much of the fermented apple juice as possible. Now it’s time to move your wine into a carboy (demijohn). In order to do this, place your funnel on the top of the carboy and very slowly and carefully pour the liquid through. Then tap the bung into place and fix your airlock on top. Store your wine-filled carboy in a cool, dark place, away from direct sunlight. In total, the wine will probably need to ferment for at least 3 weeks.</p><br>
 
                     <div class="infoParagraph">
-                        <p>After 3 weeks, it should be ready for siphoning
-                            <span class="question_mark"  type="button" onclick="showsiphoning()">&#10068;
-                            </span>. After siphoning top up the newly filled carboy with filtered or bottled water and add 1 lb of sugar. Secure the bung and airlock on top. Place it again in a dark and cool place and leave it for another 3 weeks.
+                        <p>After 3 weeks, it should be ready for siphoning.
+                            <span class="question_mark"  type="button" onclick="showsiphoning()"><img src="image/question_mark_small.png" alt="?" class="question_mark">
+                            </span> After siphoning top up the newly filled carboy with filtered or bottled water and add 1 lb of sugar. Secure the bung and airlock on top. Place it again in a dark and cool place and leave it for another 3 weeks.
 
                         </p>
 
@@ -116,14 +170,15 @@
                     </div>
 
                     <br>
- <div class="infoParagraph">
-                    <p>After 3 weeks, it is ready for bottling process<span class="question_mark" type="button" onclick="showbottling()">&#10068;</span>. Add one Campden tablet per gallon of wine just before bottling. The Campden tablets must first be crushed and dissolved in a small amount of the wine or water. When you’re done, all that’s left is to cork up and attach labels to your wine bottles.</p>
+                    <div class="infoParagraph">
+                        <p>After 3 weeks, it is ready for bottling process.
+                            <span class="question_mark" type="button" onclick="showbottling()"><img src="image/question_mark_small.png" alt="?" class="question_mark"></span> Add one Campden tablet per gallon of wine just before bottling. The Campden tablets must first be crushed and dissolved in a small amount of the wine or water. When you’re done, all that’s left is to cork up and attach labels to your wine bottles.</p>
 
-                    <div id="siphoning">
-                        <img src="image/ex.png "  width="10px;" class="xbutton"type="button" onclick="hidesiphoning()">
-                        <p>Put your wine-filled carboy on a raised, flat surface. Then, position your empty carboy on the ground, lower than the wine-filled carboy. Remove the bung and airlock from your wine, and start lowering your siphoning tube all the way down to the bottom of the wine-filled carboy, stopping around half an inch above the bottom. Then, take the other end of the tube and suck as hard as you can until the wine starts flowing freely through the tube. Quickly stick the tube into the empty carboy and watch how it slowly fills up the empty carboy with wine. </p>
+                        <div id="siphoning">
+                            <img src="image/ex.png "  width="10px;" class="xbutton"type="button" onclick="hidesiphoning()">
+                            <p>Put your wine-filled carboy on a raised, flat surface. Then, position your empty carboy on the ground, lower than the wine-filled carboy. Remove the bung and airlock from your wine, and start lowering your siphoning tube all the way down to the bottom of the wine-filled carboy, stopping around half an inch above the bottom. Then, take the other end of the tube and suck as hard as you can until the wine starts flowing freely through the tube. Quickly stick the tube into the empty carboy and watch how it slowly fills up the empty carboy with wine. </p>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
 
@@ -136,7 +191,7 @@
                     <li>Very ripe to overripe pears 5 lb;
                     </li>
                     <li>Sugar 2 lb; </li>
-                    <li>Watter 1 gal;
+                    <li>Water 1 gal;
                     </li>
                     <li>Citric Acid 1½ tsp;
                     </li>
@@ -179,11 +234,11 @@
                     <p>Put the mashed strawberries into a container; add sugary syrup and handful of raisins. Thoroughly stir it. Raisins contain wild wine yeast, which facilitate fermentation. You can manage without them, but you’ll have no guarantee that the strawberry will ferment. You may choose to add wine yeast instead or in addition. Fill a large stainless steel pot up to ¾ of its volume; otherwise the must might overflow during the fermentation.
                     </p><br>
 
-                    <p>Cover the pot with gauze and leave it for about a week in a dark place with a temperature of 61-77F° / 16-25°C. In order to prevent mold from appearing and the juice from souring, stir the must with a sterilized spoon every day.</p><br>
+                    <p>Cover the pot with gauze and leave it for about a week in a dark place with a temperature of 61-77F°. In order to prevent mold from appearing and the juice from souring, stir the must with a sterilized spoon every day.</p><br>
 
                     <p>After about a week, when you see the signs of active fermentation (foaming, hissing sound, and fermented odor), it should be ready for siphoning. Carefully pour the wine from the sediment through a siphoning tube. Squeeze the pulp through straining bag or cheesecloth.</p><br>
 
-                    <p>Pour all of the wine into a clean carboy (demijohn). Install an air lock. Move the carboy into a dark warm place (65-74F° / 18-23°C).</p><br>
+                    <p>Pour all of the wine into a clean carboy (demijohn). Install an air lock. Move the carboy into a dark warm place (65-74F°).</p><br>
 
                     <p>After 35-45 days, the fermentation will be finished (the air lock will stop bubbling). Now you can pour the wine from the sediment through a siphoning tube in bottle for storing. </p><br>
 
@@ -204,7 +259,7 @@
             </footer>
 
         </section>
-        
+
 
     </body>
 </html>

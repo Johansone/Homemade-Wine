@@ -1,6 +1,7 @@
 
 function showbottling() {
     document.getElementById("bottling").style.display = "block";
+    document.getElementById("siphoning").style.display = "none";
 }
 function hidebottling() {
     document.getElementById("bottling").style.display = "none";
@@ -8,6 +9,7 @@ function hidebottling() {
 
 function showsiphoning() {
     document.getElementById("siphoning").style.display = "block";
+    document.getElementById("bottling").style.display = "none";
 }
 function hidesiphoning() {
     document.getElementById("siphoning").style.display = "none";
@@ -15,6 +17,7 @@ function hidesiphoning() {
 
 function show_recipe_Apple() {
     document.getElementById("recipe_Apple").style.display = "block";
+    document.getElementById("recipe_Pear").style.display = "none";
     document.getElementById("recipe_Strawberry").style.display = "none";
 }
 
@@ -45,4 +48,7 @@ function show_useful_websites() {
 function hide_hamburgermenu() {
     document.getElementById("hamburgermenu").style.display = "none";
 }
+// Recipe Icons
+
+
 
