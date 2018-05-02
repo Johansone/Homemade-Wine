@@ -19,19 +19,63 @@ function show_recipe_Apple() {
     document.getElementById("recipe_Apple").style.display = "block";
     document.getElementById("recipe_Pear").style.display = "none";
     document.getElementById("recipe_Strawberry").style.display = "none";
+    document.getElementById("recipe_Plum").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "none";
+    document.getElementById("recipe_Cranberry").style.display = "none";
 }
 
 function show_recipe_Strawberry() {
     document.getElementById("recipe_Strawberry").style.display = "block";
     document.getElementById("recipe_Apple").style.display = "none";
     document.getElementById("recipe_Pear").style.display = "none";
+    document.getElementById("recipe_Plum").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "none";
+    document.getElementById("recipe_Cranberry").style.display = "none";
 }
 
 function show_recipe_Pear() {
     document.getElementById("recipe_Pear").style.display = "block";
     document.getElementById("recipe_Apple").style.display = "none";
     document.getElementById("recipe_Strawberry").style.display = "none";
+    document.getElementById("recipe_Plum").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "none";
+    document.getElementById("recipe_Cranberry").style.display = "none";
 }
+
+function show_recipe_Plum() {
+    document.getElementById("recipe_Plum").style.display = "block";
+    document.getElementById("recipe_Apple").style.display = "none";
+    document.getElementById("recipe_Strawberry").style.display = "none";
+    document.getElementById("recipe_Pear").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "none";
+    document.getElementById("recipe_Cranberry").style.display = "none";
+}
+function show_recipe_Jam() {
+    document.getElementById("recipe_Apple").style.display = "none";
+    document.getElementById("recipe_Pear").style.display = "none";
+    document.getElementById("recipe_Strawberry").style.display = "none";
+    document.getElementById("recipe_Plum").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "block";
+    document.getElementById("recipe_Cranberry").style.display = "none";
+}
+function show_recipe_Cranberry() {
+    document.getElementById("recipe_Apple").style.display = "none";
+    document.getElementById("recipe_Pear").style.display = "none";
+    document.getElementById("recipe_Strawberry").style.display = "none";
+    document.getElementById("recipe_Plum").style.display = "none";
+    document.getElementById("recipe_Jam").style.display = "none";
+    document.getElementById("recipe_Cranberry").style.display = "block";
+}
+
+  
+function newpage_apple() {
+    window.open("recipes.html",'_self',false);
+}
+
+
+
+
+
 // Hamburger menu
 
 function show_hamburgermenu() {
@@ -48,7 +92,7 @@ function show_useful_websites() {
 function hide_hamburgermenu() {
     document.getElementById("hamburgermenu").style.display = "none";
 }
-// Recipe Icons
+
 
 
 

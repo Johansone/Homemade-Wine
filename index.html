@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Untitled Document</title>
+        <title>Homemade Wine</title>
+
+        <link rel="shortcut icon" href="image/favicon3.png" type="image/x-icon">
 
         <link href="styles.css" type="text/css" rel="stylesheet">
 
@@ -45,14 +47,15 @@
                     <ul>
                         <li class="recipes_button"><a href="recipes.html" class="Link_Style">Recipes</a>
                             <!--<ul>
-<li>Apple Wine</li>
-<li>Pear Wine</li>
-<li>Strawberry Wine</li>
-<li>Plum Wine</li>
-<li>Jam Wine</li>
-<li>Cranberry Wine</li>
-</ul>-->
-                        </li >
+                                <li onclick="newpage_apple()">Apple Wine</li>
+                                <li onclick="newpage_pear()">Pear Wine</li>
+                                <li onclick="newpage_strawberry()">Strawberry Wine</li>
+                                <li onclick="newpage_plum()">Plum Wine</li>
+                                <li onclick="newpage_jam()">Jam Wine</li>
+                                <li onclick="newpage_cranberry()">Cranberry Wine</li>
+                            </ul>-->
+
+                        </li>
                         <li class="types_of_wine" >Types of Wine
                             <ul >
                                 <li> Dry
@@ -72,42 +75,41 @@
 
                                 <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
                                 </li>
-
                             </ul>
                         </li>
                     </ul>
                 </div>
             </nav>
-                  <div id="hamburgermenu" >
-                    <ul onmouseleave="hide_hamburgermenu()">
-                        <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
-                            
-                        <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
-                            <ul id="Types_js">
-                                <li> Dry
-                                </li>
-                                <li> Semi-Dry
-                                </li>
-                                <li> Sweet
-                                </li>
-                                <li> Semi-Sweet
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
-                            <ul id="Websites_js">
-                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
-                                </li>
+            <div id="hamburgermenu" >
+                <ul onmouseleave="hide_hamburgermenu()">
+                    <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
 
-                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
-                                </li>
+                    <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
+                        <ul id="Types_js">
+                            <li> Dry
+                            </li>
+                            <li> Semi-Dry
+                            </li>
+                            <li> Sweet
+                            </li>
+                            <li> Semi-Sweet
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
+                        <ul id="Websites_js">
+                            <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                            </li>
 
-                            </ul>
-                        </li>
-                    </ul>
+                            <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                            </li>
 
-                </div>
-            
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
 
             <div id="Paragraph1">
                 <h2>Why should you try?</h2>
@@ -221,6 +223,9 @@
 
 
             <footer>
+                <div class="footer_icon">
+                    <img src="image/favicon1.png" alt="favicon_footer">
+                </div>
                 <p>
                     May cause intense feeling of happiness and lifelong home brewing hobby.<br>
                     Drink with moderation and responsibility.<br>

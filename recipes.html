@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Untitled Document</title>
+        <title>Homemade Wine - Recipes</title>
+
+        <link rel="shortcut icon" href="image/favicon3.png" type="image/x-icon">
 
         <link href="styles.css" type="text/css" rel="stylesheet">
 
@@ -21,7 +23,7 @@
 
             <nav>
                 <a href="index.html"><img src="image/home_button.png" alt="home_button" class="home" width="1.5%"></a>
-                
+
                 <div id="hamburgernav" type="button" onclick="show_hamburgermenu()">
                     <div></div>
                     <div></div>
@@ -30,7 +32,7 @@
 
                 <div id="dropdown">
                     <ul>
-                        <li class="recipes_button"><a href="recipes.html" class="Link_Style">Recipes</a>
+                        <li class="recipes_button"><a href="recipes.html" class="Link_Style" style="text-decoration: underline;">Recipes</a>
                             <!--<ul>
 <li>Apple Wine</li>
 <li>Pear Wine</li>
@@ -65,35 +67,35 @@
                     </ul>
                 </div>
             </nav>
-             <div id="hamburgermenu" >
-                    <ul onmouseleave="hide_hamburgermenu()">
-                        <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
-                            
-                        <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
-                            <ul id="Types_js">
-                                <li> Dry
-                                </li>
-                                <li> Semi-Dry
-                                </li>
-                                <li> Sweet
-                                </li>
-                                <li> Semi-Sweet
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
-                            <ul id="Websites_js">
-                                <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
-                                </li>
+            <div id="hamburgermenu" >
+                <ul onmouseleave="hide_hamburgermenu()">
+                    <li class="recipes_button2"><a href="recipes.html" class="Link_Style">Recipes</a>
 
-                                <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
-                                </li>
+                    <li class="types_of_wine2" type="button" onclick="show_types_of_wine()">Types of Wine
+                        <ul id="Types_js">
+                            <li> Dry
+                            </li>
+                            <li> Semi-Dry
+                            </li>
+                            <li> Sweet
+                            </li>
+                            <li> Semi-Sweet
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="useful_websites2" type="button" onclick="show_useful_websites()">Useful Websites
+                        <ul id="Websites_js">
+                            <li><a href="http://winefolly.com/wine-basics-beginners-guide/" >Wine Basics</a>
+                            </li>
 
-                            </ul>
-                        </li>
-                    </ul>
+                            <li><a href="https://www.wineturtle.com">Learn More About Wine</a>
+                            </li>
 
-                </div>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
 
             <section id="Recipes">
                 <h3>Recipes</h3>
@@ -104,27 +106,29 @@
 
                     <li id="strawberrywine" type="button" onclick="show_recipe_Strawberry()">Strawberry Wine</li>
 
-                    <li>Plum Wine</li>
-                    <li>Jam Wine</li>
-                    <li>Cranberry Wine</li>
+                    <li id="plumwine" type="button" onclick="show_recipe_Plum()">Plum Wine</li>
+
+                    <li id="jammwine" type="button" onclick="show_recipe_Jam()">Jam Wine</li>
+
+                    <li id="cranberrywine" type="button" onclick="show_recipe_Cranberry()">Cranberry Wine</li>
                 </ul>
             </section>
-            
+
             <div id="Recipes_Icons">
-                    <ul id="Icons">
-                        <li type="button" onclick="show_recipe_Apple()"><img src="image/icon_apple.png" alt="apple" class="fruit"></li>
-                        
-                        <li type="button" onclick="show_recipe_Pear()"><img src="image/icon_pear.png" alt="pear" class="fruit"></li>
-                        
-                        <li type="button" onclick="show_recipe_Strawberry()"><img src="image/icon_strawberry.png" alt="strawberry" class="fruit"></li>
-                        
-                        <li><img src="image/icon_plum.png" alt="plum" class="fruit"></li>
-                        
-                        <li><img src="image/icon_jam.png" alt="jam" class="fruit"></li>
-                        
-                        <li><img src="image/icon_cranberry.png" alt="cranberry" class="fruit"></li>
+                <ul id="Icons">
+                    <li type="button" onclick="show_recipe_Apple()"><img src="image/icon_apple.png" alt="apple" class="fruit"></li>
+
+                    <li type="button" onclick="show_recipe_Pear()"><img src="image/icon_pear.png" alt="pear" class="fruit"></li>
+
+                    <li type="button" onclick="show_recipe_Strawberry()"><img src="image/icon_strawberry.png" alt="strawberry" class="fruit"></li>
+
+                    <li type="button" onclick="show_recipe_Plum()"><img src="image/icon_plum.png" alt="plum" class="fruit"></li>
+
+                    <li type="button" onclick="show_recipe_Jam()"><img src="image/icon_jam.png" alt="jam" class="fruit"></li>
+
+                    <li type="button" onclick="show_recipe_Cranberry()"><img src="image/icon_cranberry.png" alt="cranberry" class="fruit"></li>
                 </ul>
-                </div>
+            </div>
 
             <div id="recipe_Apple">
 
@@ -196,20 +200,20 @@
                     <li>Citric Acid 1½ tsp;
                     </li>
                     <li>Raisins 1 lb;</li>
-                    <li>Wine Yeast 1 package;</li>
+                    <li>Wine Yeast 1 package.</li>
                 </ul>
                 <div class="instructions">
                     <p>First, boil water in a larger container.
                     </p>
 
-                    <p>Wash and chop pears and place them in a primary fermentation container. Add sugar and citric acid, and pour boiled water over. Stir until the sugar has dissolved, and let it cool till it reaches room temperature.
+                    <p>Wash and chop pears and place them in a primary fermentation container. Add sugar and citric acid, and pour boiled water over. Stir until the sugar has dissolved and let it cool down to room temperature.
                     </p><br>
 
-                    <p>After about 24 hours and add the yeast. Cover the mixture with a lid, and place it in a dark, warm place. The sugar present in the pear juice will be converted into alcohol with the help of the enzymes present in the yeast.</p><br>
+                    <p>After about 24 hours, add the yeast. Cover the mixture with a lid and place it in a dark, warm place. The sugar from the pear juice will turn into alcohol helped by the enzymes from the yeast.</p><br>
 
-                    <p>Stir this mixture daily for about one week. After a week, pour the mixture into a secondary fermentation container, and gently squeeze out the pulp from the fruit. This container should be an airtight one.</p><br>
+                    <p>Stir this mixture daily for about one week. After one week, pour the mixture into a secondary fermentation container and gently squeeze out the fruit pulp. This container should be airtight.</p><br>
 
-                    <p>Leave the mixture in this airtight container for about three months. After that, pour the wine mixture into sterilized wine bottles, and store for approximately 6 - 12 months. Remember, the longer you age the wine, the better it will taste.</p>
+                    <p>Leave the mixture in this airtight container for about three months. After that, pour the wine into sterilized wine bottles, and store for approximately 6 - 12 months. Remember, the longer you age the wine, the better it will taste.</p>
 
                 </div>
             </div>
@@ -224,7 +228,7 @@
                     <li>Sugar 4.4 lb; </li>
                     <li>Watter 0.8 gal;
                     </li>
-                    <li>Raisins 3.5 oz;</li>
+                    <li>Raisins 3.5 oz.</li>
                 </ul>
                 <div class="instructions">
                     <p>Mash cleaned ripe strawberries.
@@ -247,9 +251,97 @@
                 </div>
             </div>
 
+            <div id="recipe_Plum">
+
+                <div id="circle_plum"></div>
+
+                <h2>Plum Wine</h2>
+
+                <ul class="list">
+                    <li>Water 0.3 gal;
+                    </li>
+                    <li>Plums 20.9 lb;</li>
+                    <li>Sugar 0.23 oz/gal.
+                    </li>
+                </ul>
+                <div class="instructions">
+                    <p>Before plum wine is made, plums are collected and left under direct sunlight to dry a little. A couple of days in the sun is enough to cover the surface of the plums with wild leaven for fermentation. Please note that plums should not be washed before drying.</p><br>
+
+                    <p>Wipe the dried plums with a wet cloth. Then, pit and mash the plums. Place the plum pulp in a bucket, cover with gauze, and leave it in a warm place for a few days. Stir the must once every 10-12 hours. Wait until you see the signs of active fermentation (foaming, hissing sound, and fermented odor).</p><br>
+
+                    <p>Pour the plum must through a fine sieve or gauze and mix it with half of the sugar dissolved in water. Pour the must into a fermentation tank and fix an airlock on top of the carboy. Leave it in a warm (room temperature), dark place. The remaining half of the sugar is divided in half and poured into the carboy with a 5-day interval.</p><br>
+
+                    <p>After fermentation, the plum wine is ripened for six months. Once a month the wine has to be moved from the sediment through a siphoning tube to a different carboy. The final time it can be poured into bottles for storing.</p><br>
+                </div>
+            </div>
+
+            <div id="recipe_Jam">
+
+                <div id="circle_jam"></div>
+
+                <h2>Jam Wine</h2>
+
+                <ul class="list">
+                    <li>Any jam 0.3 gal;
+                    </li>
+                    <li>Water 0.3 gal;</li>
+                    <li>Raisins 0.25 lb.
+                    </li>
+                </ul>
+                <div class="instructions">
+                    <p>Boil the water and allow it to cool to room temperature. Put the jam into fermentation container or bucket, add previously washed raisins and cooled water. Thoroughly mix, best with a wooden spoon, and cover with gauze or a piece of cloth. Leave the container in a warm place until the fermentation process begins.</p><br>
+
+                    <p>After 10 days, pulp from fruit will have raised to the top in the fermentation process. Carefully remove the pulp with a spoon. Pour all of the fermented must into a carboy, using a gauze, and squeeze the gauze thoroughly. Then install an air lock. Move the carboy into a dark, warm place. </p><br>
+
+                    <p>The fermentation process could take approximately 40 days. When the water in the airlock stops bubbling - the fermentation process has finished. The wine should become transparent. Pour the wine from the sediment into bottles through a siphoning tube for storing. Make sure that each bottle has a cork and foil cap.</p><br>
+                    
+                </div>
+            </div>
+
+            <div id="recipe_Cranberry">
+
+                <div id="circle_cranberry"></div>
+
+                <h2>Cranberry Wine</h2>
+
+                <ul class="list">
+                    <li>Ground cranberries 15.4 lb;
+                    </li>
+                    <li>Water 2.6 gal;</li>
+                    <li>Apple juice 0.79 gal;
+                    </li>
+                    <li>Sugar 9.7 lb;</li>
+                    <li>Wine yeast - the amount of wine yeast will vary depending on the brand you use – read the instructions on the back before using.</li>
+                </ul>
+                <div class="instructions">
+                    <p>In a bucket mix apple juice, water, yeast, 3.3 lb of dissolved sugar, and cranberries. Leave the bucket in a warm place for a week, stirring regularly. </p><br>
+
+                    <p>Strain the must through gauze and squeeze the gauze thoroughly to extract all the liquid. Mix in 3.3 lb of sugar. 
+
+                    </p><br>
+
+                    <p>Leave the wine in a carboy in a warm, dark place for 2-3 weeks, then strain it again, if needed, and add the remaining sugar. Allow the wine to ripen for about a year. Then, it should be ready for bottling.</p><br>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             <footer>
+                <div class="footer_icon">
+                    <img src="image/favicon1.png" alt="favicon_footer">
+                </div>
                 <p>
                     May cause intense feeling of happiness and lifelong home brewing hobby.<br>
                     Drink with moderation and responsibility.<br>
